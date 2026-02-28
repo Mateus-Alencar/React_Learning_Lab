@@ -24,8 +24,8 @@ O React Native é um framework criado pela Meta que permite desenvolver aplicati
         const PI = 3.14;
         // PI = 3.1415; ❌ erro
         ```
-        >[!WARNING]
-        > objetos e arrays declarados com const podem ter seus valores internos alterados:
+        >[!WARNING]  
+        > objetos e arrays declarados com const podem ter seus valores internos alterados  
           ```javascript
           const pessoa = { nome: "Ana" };
           pessoa.nome = "Carlos"; // ✅ permitido
@@ -158,7 +158,12 @@ O React Native é um framework criado pela Meta que permite desenvolver aplicati
 - Hooks (useState e useEffect)
   - Hooks são funções que permitem "conectar" recursos do React em componentes de função.
     - `useSate`: É o Hook que permite adicionar estado ao componente.
-    - `useEffect`: Permite executar efeitos colaterais (side effects) em componentes, como chamadas a APIs, assinaturas ou mudanças manuais no DOM.
+    - `useEffect`: Permite executar efeitos colaterais (side effects) em componentes, como assinaturas ou mudanças manuais no DOM.
+      - Ele serve para:
+        - Requisições API
+        - Atualizar título da página
+        - Trabalhar com timers
+        - Escutar eventos
       >[!NOTE]
       > O DOM (Document Object Model, ou Modelo de Objeto de Documento) é uma interface de programação que o navegador cria assim que carrega uma página web.
 - Renderização condicional
