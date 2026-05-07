@@ -137,6 +137,11 @@ O React Native é um framework criado pela Meta que permite desenvolver aplicati
         import multiplicar from "./math.js";
       ```
 ## Principais conceitos do React
+| Palavra          | Função                                       |
+| ---------------- | -------------------------------------------- |
+| `const`          | cria uma variável/componente                 |
+| `return`         | define o que será exibido                    |
+| `export default` | permite usar o componente em outros arquivos |
 
 - Componentes
   - Eles permitem dividir a interface em partes independentes, reutilizáveis e isoladas.
